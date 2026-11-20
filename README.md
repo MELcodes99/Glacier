@@ -15,7 +15,7 @@ All contracts are verified on BaseScan.
 | GlacierRouterV2 | [`0x4F854230f990615f91b0Fe73625BDb02299cB3cD`](https://basescan.org/address/0x4F854230f990615f91b0Fe73625BDb02299cB3cD#code) |
 | GlacierRouter (v1, retired) | [`0x6bEF409f6cC4C0C392b2E40ff08773F214405Fcb`](https://basescan.org/address/0x6bEF409f6cC4C0C392b2E40ff08773F214405Fcb#code) |
 
-Supported stocks: Coinbase Tokenized Stocks on Base (B20 tokens, 8 decimals): NVDAc, AAPLc, MSFTc, TSLAc, GOOGLc, AMZNc, METAc, MSTRc, SPCXc, SNDKc.
+Supported stocks (13, every Coinbase tokenized stock on Base with a live Chainlink feed): NVDAc, AAPLc, MSFTc, TSLAc, GOOGLc, AMZNc, METAc, MSTRc, SPCXc, SNDKc, INTCc, CRCLc, ANTc. Each one has a Chainlink feed and a USDC route through a verified Aerodrome CL pool.
 
 ## How it works
         USDC                                   stock tokens
